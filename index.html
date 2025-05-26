@@ -8,64 +8,66 @@
     <link rel="stylesheet" href="style.css">    
 </head>
 <body>
-    <header class="b-header">
-        <div class="b-header-ng">
-            <ul class="b-header-ng-ul">
-                <li>Tic</li>
-                <li>Tac</li>
-                <li>Toe</li>
-            </ul>
-        </div>
-        <div class="b-header-logo">
-            <a href="#">
-                <img src="./images/icons8-tic-tac-toe-50.png" alt="Tic tac toe logo" loading="lazy">
-            </a>
-        </div>
-        <div class="b-header-menu">
-            <div class="b-header-menu-btn">
-                <div class="b-header-menu-btn-m">Menu</div>
-                <div class="b-header-menu-game">
-                    <ul class="b-header-menu-list">
-                        <li><a href="#">New game</a></li>
-                        <li><a href="#">List won players</a></li>
-                    </ul>
+   <div class="wraper">
+        <header class="b-header">
+            <div class="b-header-ng">
+                <ul class="b-header-ng-ul">
+                    <li>Tic</li>
+                    <li>Tac</li>
+                    <li>Toe</li>
+                </ul>
+            </div>
+            <div class="b-header-logo">
+                <a href="#">
+                    <img src="./images/icons8-tic-tac-toe-50.png" alt="Tic tac toe logo" loading="lazy">
+                </a>
+            </div>
+            <div class="b-header-menu">
+                <div class="b-header-menu-btn">
+                    <div class="b-header-menu-btn-m">Menu</div>
+                    <div class="b-header-menu-game">
+                        <ul class="b-header-menu-list">
+                            <li><a href="#">New game</a></li>
+                            <li><a href="#">List won players</a></li>
+                        </ul>
+                    </div>
+                </div>           
+            </div>
+        </header>
+        <main class="main">
+            <div class="main-players">
+                <div class="main-players-first">
+                    <label for="first" class="mpf-label">First player:</label>
+                    <input type="text" name="first" id="first-pl" placeholder="Enter your name">
                 </div>
-            </div>           
-        </div>
-    </header>
-    <main class="main">
-        <div class="main-players">
-            <div class="main-players-first">
-                <label for="first" class="mpf-label">First player:</label>
-                <input type="text" name="first" id="first-pl" placeholder="Enter your name">
+                <div class="main-players-second">
+                    <label for="second" class="mpf-label">Second player:</label>
+                    <input type="text" name="second" id="second-pl" placeholder="Enter your name">
+                </div>
+                <div class="main-players-start">
+                    <button class="mps-btn" id="mps-btn">
+                        Play!
+                    </button>
+                </div>
             </div>
-            <div class="main-players-second">
-                <label for="second" class="mpf-label">Second player:</label>
-                <input type="text" name="second" id="second-pl" placeholder="Enter your name">
+            <div class="main-arena">
+                <div class="main-arena-btn">
+                    <button class="mab-square1 square">1</button>
+                    <button class="mab-square2 square">2</button>
+                    <button class="mab-square3 square">3</button>
+                    <button class="mab-square4 square">4</button>
+                    <button class="mab-square5 square">5</button>
+                    <button class="mab-square6 square">6</button>
+                    <button class="mab-square7 square">7</button>
+                    <button class="mab-square8 square">8</button>
+                    <button class="mab-square9 square">9</button>
+                </div>
             </div>
-            <div class="main-players-start">
-                <button class="mps-btn" id="mps-btn">
-                    Play!
-                </button>
-            </div>
-        </div>
-        <div class="main-arena">
-            <div class="main-arena-btn">
-                <button class="mab-square1 square">1</button>
-                <button class="mab-square2 square">2</button>
-                <button class="mab-square3 square">3</button>
-                <button class="mab-square4 square">4</button>
-                <button class="mab-square5 square">5</button>
-                <button class="mab-square6 square">6</button>
-                <button class="mab-square7 square">7</button>
-                <button class="mab-square8 square">8</button>
-                <button class="mab-square9 square">9</button>
-            </div>
-        </div>
-    </main>
-    <footer class="footer">
-
-    </footer>
+        </main>
+        <footer class="footer">
+            123
+        </footer>
+   </div>
     <script src="./script.js"></script>
 </body>
 </html>
