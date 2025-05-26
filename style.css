@@ -23,8 +23,19 @@ body{
     background: linear-gradient(90deg, rgba(71, 141, 168, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
 }
 
+input{
+    height: 28px;
+    border-radius: var(--radius);
+    padding-left: 5px;
+}
+
 h1, button, div, p, li{
     font-family: Yano sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-white)
 }
 
 .b-header-ng-ul > li:nth-child(2){
@@ -76,6 +87,11 @@ h1, button, div, p, li{
     border-radius: var(--radius);
     margin-right: 10px;
 }
+
+.b-header-menu-btn:hover{
+    background-color: var(--color-black);
+}
+
 .b-header-menu-btn:hover > .b-header-menu-game{
     display: block;
 }
@@ -89,10 +105,6 @@ h1, button, div, p, li{
     background-color: var(--color-black);
 }
 
-a{
-    text-decoration: none;
-    color: var(--color-white)
-}
 
 .b-header-menu-list > li:nth-child(2){
     margin-top: 10px;
@@ -104,3 +116,35 @@ a{
     margin-top: 10px;
 }
 
+.main-players{
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+}
+
+.mps-btn{
+    width: 85px;
+    height: 28px;
+    border-radius: var(--radius);
+}
+
+input::placeholder{
+    padding-left: 5px;
+}
+
+.main-arena-btn{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    width: 280px;
+    gap:5px;
+}
+
+.square{
+    width: 90px;
+    height: 90px;
+}
