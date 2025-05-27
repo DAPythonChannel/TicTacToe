@@ -26,7 +26,7 @@ body{
 input{
     height: 28px;
     border-radius: var(--radius);
-    padding-left: 5px;
+    padding-left: 10px;
 }
 
 h1, button, div, p, li{
@@ -49,12 +49,12 @@ a{
 
 .b-header-ng-ul > li:nth-child(2){
     margin-left: 10px;
-    margin-top: -7px;
+    margin-top: -4px;
 }
 
 .b-header-ng-ul > li:nth-child(3){
     margin-left: 20px;
-    margin-top: -7px;
+    margin-top: -4px;
 }
 
 .b-header-menu-game{
@@ -86,43 +86,27 @@ a{
     padding-left: 10px;
 }
 
-.b-header-menu-btn{
-    text-align: center;
-    vertical-align: middle;
+.b-header-menu{
+	width: 160px; 
     height: 40px;
-    width: 150px;
-    border: 1px;
-    border: var(--border);
-    border-radius: var(--radius);
-    margin-right: 10px;
+    text-align: center;
+	position: relative;
+    padding-right: 5px;
 }
-
-.b-header-menu-btn:hover{
-    background-color: var(--color-black);
-}
-
-.b-header-menu-btn:hover > .b-header-menu-game{
-    display: block;
-}
-
-.b-header-menu-list{
+.b-header-menu ul{
+    display: none;
+	position: absolute;
     list-style-type: none;
-    border: var(--border);
-    border-radius: var(--radius);
-    padding-top: 10px;
-    margin-top: 15px;
-    background-color: var(--color-black);
 }
 
-
-.b-header-menu-list > li:nth-child(2){
-    margin-top: 10px;
-    margin-bottom: 10px;
+.b-header-menu ul li{
+    display: inline-block;
+    text-align: center;
 }
 
-.b-header-menu-btn-m{
+.b-header-menu:hover ul{
     display: block;
-    margin-top: 10px;
+    cursor: pointer;
 }
 
 .main-players{
@@ -136,18 +120,19 @@ a{
 
 .mps-btn{
     width: 85px;
-    height: 28px;
+    height: 32px;
     border-radius: var(--radius);
 }
 
-input::placeholder{
-    padding-left: 5px;
+.main{
+    display: flex;
+    flex-direction: column;
 }
 
 .main-arena{
     display: flex;
     justify-content: center;
-    align-self: center;
+    align-items: center;
     flex-grow: 2;
 }
 
