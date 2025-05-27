@@ -101,6 +101,13 @@ a{
     border: var(--border);
     border-radius: var(--radius);
 }
+
+.b-header-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .b-header-menu-ul{
     display: none;
     position: absolute;
@@ -136,6 +143,29 @@ a{
     justify-content: center;
     align-items: center;
     gap:5px;
+}
+
+.main-players-first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.main-players-second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.main-players-start{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-self: flex-end;
 }
 
 .mps-btn{
