@@ -222,3 +222,34 @@ a{
 .footer-start:hover{
     cursor: pointer;
 }
+
+@media (max-width: 412px) {
+    .square{
+        width: 90px;
+        height: 90px;
+    }
+
+    .main-arena-btn,
+    .box{
+        width: 280px;
+    }
+
+    .square{
+        font-size: 20mm;
+    }
+    
+    .b-header-ng,
+    .b-header-logo{
+        display: none;
+    }
+
+    .b-header{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .b-header-menu,
+    .b-header-menu-ul{
+        width: 280px;
+    }
+}
