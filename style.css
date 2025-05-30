@@ -68,6 +68,13 @@ a{
     display: none;
 }
 
+.b-header-menu-m{
+    width: 160px; 
+    height: 40px;
+    border: var(--border);
+    border-radius: var(--radius);
+    background-color: transparent;
+}
 
 .visually-hidden {
   position: absolute;
@@ -103,11 +110,9 @@ a{
     align-items: center;
     justify-content: center;
     margin-right: var(--margin-rigth);
-    border: var(--border);
-    border-radius: var(--radius);
 }
 
-.b-header-menu:hover{
+.b-header-menu-m:hover{
     box-shadow: var(--box-shadow)
 }
 
@@ -208,7 +213,8 @@ a{
     border: var(--border);
     font-size: 28mm;
     text-align: center;
-
+    border-radius: var(--radius);
+    user-select: none;
 }
 
 .footer{
