@@ -91,30 +91,11 @@ a{
 
 .b-header{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     height: 72px;
 }
 
-.b-header-ng-ul{
-    list-style-type: none;
-    padding-left: 10px;
-}
-
-.b-header-menu{
-    display: flex;
-    flex-direction: column;
-    flex-basis: auto;
-    width: 160px; 
-    height: 40px;
-    align-items: center;
-    justify-content: center;
-    margin-right: var(--margin-rigth);
-}
-
-.b-header-menu-m:hover{
-    box-shadow: var(--box-shadow)
-}
 
 .b-header-menu-ul{
     display: none;
@@ -225,7 +206,7 @@ a{
     font-size: 12mm;
 }
 
-.footer-start:hover{
+.footer:hover{
     cursor: pointer;
 }
 
@@ -242,20 +223,6 @@ a{
 
     .square{
         font-size: 20mm;
-    }
-    
-    .b-header-ng,
-    .b-header-logo{
-        display: none;
-    }
+    }  
 
-    .b-header{
-        display: flex;
-        justify-content: center;
-    }
-    
-    .b-header-menu,
-    .b-header-menu-ul{
-        width: 280px;
-    }
 }
